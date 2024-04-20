@@ -1,0 +1,29 @@
+<div class="main-content">
+<h4 class="text-center my-4 manage-pantries-heading">Manage Pantries</h4>
+  <div class="d-flex flex-column align-items-center">
+    <a href="/admin/createPantry" class="btn btn-primary mb-4">Create a new Pantry</a>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Pantry</th>
+          <th scope="col">Location</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each pantries}}
+          <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.location}}</td>
+            <td>
+                <form action="/admin/deletePantry" method="POST">
+                    <input type="hidden" name="pantryId" value="{{this._id}}">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</div>

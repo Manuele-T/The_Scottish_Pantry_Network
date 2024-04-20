@@ -1,0 +1,10 @@
+<div class="main-content">
+<form action="/addItemToRepo" method="post">
+  <label for="name">Food Name:</label><br>
+  <input type="text" id="name" name="name" required oninvalid="this.setCustomValidity('Please enter a food name')" oninput="this.setCustomValidity('')"><br>
+  <label for="description">Description:</label><br>
+  <input type="text" id="description" name="description" required oninvalid="this.setCustomValidity('Please enter a description')" oninput="this.setCustomValidity('')"><br>
+  <label for="expiryDate">Expiry Date:</label><br>
+  <input type="date" id="expiryDate" name="expiryDate" required oninvalid="this.setCustomValidity('Please enter an expiry date')" oninput="this.setCustomValidity('')"><br><br>
+<input type="submit" value="Submit" class="btn btn-primary mb-4"></form>
+</div>

@@ -1,0 +1,21 @@
+<div class="main-content">
+    <h4 class="text-center my-4">Growers List</h4>
+    <div class="d-flex flex-column align-items-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Grower</th>
+                    <th scope="col">Blocked</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each growers}}
+                <tr>
+                    <td>{{this.username}}</td>
+                    <td>{{#if this.isBlocked}}Yes{{else}}No{{/if}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>

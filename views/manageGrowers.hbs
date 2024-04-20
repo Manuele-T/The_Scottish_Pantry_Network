@@ -1,0 +1,35 @@
+<div class="main-content">
+    <h4 class="text-center my-4">Manage Growers</h4>
+    <div class="d-flex flex-column align-items-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Grower:</th>
+                    <th scope="col">Blocked:</th>
+                    <th scope="col">Change Status</th>
+                    <th scope="col">Delete</th> <!-- Add this line -->
+                </tr>
+            </thead>
+            <tbody>
+                {{#each growers}}
+                <tr>
+                    <td>{{this.username}}</td>
+                    <td>{{#if this.isBlocked}}Yes{{else}}No{{/if}}</td>
+                    <td>
+                        <form action="/admin/changeGrowerStatus" method="POST">
+                            <input type="hidden" name="growerId" value="{{this._id}}">
+                            <button type="submit" class="btn btn-primary">Change Status</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="/admin/deleteGrower" method="POST">
+                            <input type="hidden" name="growerId" value="{{this._id}}">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td> 
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>

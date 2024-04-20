@@ -1,0 +1,38 @@
+<div class="main-content">
+  <h4 class="text-center my-4">Manage Pantry Managers</h4>
+  <div class="d-flex flex-column align-items-center">
+    <a href="/admin/createPantryManager" class="btn btn-primary mb-4">Create a Pantry Manager</a>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Pantry Manager</th>
+          <th scope="col">Assigned Pantry</th>
+          <th scope="col">Blocked</th>
+          <th scope="col">Change Status</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each pantryManagers}}
+          <tr>
+            <td>{{this.username}}</td>
+            <td>{{#if this.pantry}}{{this.pantry.name}}{{else}}None{{/if}}</td>
+            <td>{{#if this.isBlocked}}Yes{{else}}No{{/if}}</td>
+            <td>
+                <form action="/admin/changePantryManagerStatus" method="POST">
+                    <input type="hidden" name="pantryManagerId" value="{{this._id}}">
+                    <button type="submit" class="btn btn-primary">Change Status</button>
+                </form>
+            </td>
+            <td>
+                <form action="/admin/deletePantryManager" method="POST">
+                    <input type="hidden" name="pantryManagerId" value="{{this._id}}">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</div>

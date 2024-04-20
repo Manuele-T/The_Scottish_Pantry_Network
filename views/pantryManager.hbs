@@ -1,0 +1,33 @@
+<div class="main-content">
+  <h5 class="text-center my-4">Welcome, {{user.username}}</h5>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Picked Up</th>
+        <th>Expiry Date</th>
+        <th>Grower</th>
+        <th>Pantry</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each pantryItems}}
+      <tr>
+        <td>{{this.name}}</td>
+        <td>{{this.description}}</td>
+        <td>{{this.hasBeenPickedUp}}</td>
+        <td>{{formatDate this.expiryDate}}</td>
+        <td>{{this.growerId.username}}</td>
+        <td>{{this.pantryId.name}}</td>
+        <td>
+          <form action="/pantryManager/deletePantryStockItem" method="POST">
+            <input type="hidden" name="itemId" value="{{this._id}}">
+            <button type="submit" class="btn btn-danger">Delete</button>
+          </form>
+        </td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>

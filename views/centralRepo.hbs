@@ -1,0 +1,43 @@
+<div class="main-content">
+
+  <body>
+    <div style="text-align: center;">
+      <h4>Food Hub</h4>
+      {{#if user}}
+      <h5>Welcome, {{user.username}}</h5>
+      {{#if (eq user.role 'Admin')}}
+      <p>You are logged in as an Admin.</p>
+      {{/if}}
+      {{#if (eq user.role 'Grower')}}
+      <p>You are logged in as a Grower.</p>
+      <div style="text-align: center; margin-bottom: 20px;">
+        <button class="btn btn-primary grid-item" onclick="location.href='/addItemToRepo'">Add a food item</button>
+      </div>
+      {{/if}}
+      {{#if (eq user.role 'PantryManager')}}
+      <p>You are logged in as a Pantry Manager.</p>
+      {{/if}}
+      {{#if (eq user.role 'RepoManager')}}
+      <p>You are logged in as a Repo Manager.</p>
+      {{/if}}
+      {{else}}
+      <p>Please log in to view the central repository.</p>
+      {{/if}}
+      <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+        {{#each foodItems}}
+        <div class="item">
+          <h5>{{this.name}}</h5>
+          <p>{{this.description}}</p>
+          <p>Expiry Date: {{formatDate this.expiryDate}}</p>
+          {{#if (eq ../user.role 'PantryManager')}}
+          <button onclick="location.href='/reserveItem/{{this._id}}'">Reserve this item</button>
+          {{/if}}
+          {{#if (eq ../user.role 'RepoManager')}}
+          <button onclick="location.href='/deleteItem/{{this._id}}'">Delete this item</button>
+          {{/if}}
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </body>
+</div>

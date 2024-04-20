@@ -1,0 +1,14 @@
+<div class="main-content">
+  <h4 class="text-center my-4">Manage Messages</h4>
+  <div class="d-flex flex-column align-items-center">
+    {{#each messages}}
+      <div class="card mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{this.email}}</h5>
+          <p class="card-text">{{this.message}}</p>
+          <a href="/admin/messages/delete/{{this._id}}" class="btn btn-primary">Delete</a>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

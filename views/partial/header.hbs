@@ -1,0 +1,59 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">TSPN</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/messageForm">Message Us</a>
+      </li>
+    </ul>
+    {{#if user}}
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Welcome, {{user.username}}</a>
+      </li>
+      {{#if (eq user.role 'Admin')}}
+      <li class="nav-item">
+        <a class="nav-link" href="/admin">Manage Website</a>
+      </li>
+      {{/if}}
+      {{#if (eq user.role 'Grower')}}
+      <li class="nav-item">
+        <a class="nav-link" href="/grower">Manage Your Grower Account</a>
+      </li>
+      {{/if}}
+      {{#if (eq user.role 'PantryManager')}}
+      <li class="nav-item">
+        <a class="nav-link" href="/pantryManager">Manage Your Pantry</a>
+      </li>
+      {{/if}}
+      {{#if (eq user.role 'RepoManager')}}
+      <li class="nav-item">
+        <a class="nav-link" href="/centralRepo">Manage the Central Repo</a>
+      </li>
+      {{/if}}
+      <li class="nav-item">
+        <a class="nav-link" href="/logout">Logout</a>
+      </li>
+    </ul>
+    {{else}}
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/login">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/register">Register</a>
+      </li>
+    </ul>
+    {{/if}}
+  </div>
+</nav>
