@@ -1,8 +1,14 @@
 <div class="main-content">
   {{#if user}}
+  <br>
   <div class="flex-container">
-    <a href="/centralRepo" class="btn btn-primary flex-item">View Food Hub/a>
+    <p class="button-desc">Access the central hub where all food donations are managed and distributed.</p>
+    <a href="/centralRepo" class="btn btn-primary flex-item">View Food Hub</a>
+    <br>
+    <p class="button-desc">Access the list of all contributors who donate food to our community.</p>
     <a href="/growersList" class="btn btn-primary flex-item">View Our Food Donators List</a>
+    <br>
+    <p class="button-desc">Access the list of the various food pantries associated with our network</p>
     <a href="/pantriesList" class="btn btn-primary flex-item">View Our Pantries List</a>
   </div>
   {{else}}

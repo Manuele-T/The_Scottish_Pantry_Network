@@ -36,6 +36,8 @@
           <button onclick="location.href='/deleteItem/{{this._id}}'">Delete this item</button>
           {{/if}}
         </div>
+        {{else}}
+        <p>There is no food available in the Food Hub.</p>
         {{/each}}
       </div>
     </div>
