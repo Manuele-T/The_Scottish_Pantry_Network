@@ -1,8 +1,8 @@
-# Food Hub Web Application
+# TSPN Web Application
 
 ## Overview
 
-Food Hub is a website designed to connect food donators and food pantries. It allows growers to list available food, pantry managers to visualize and reserve those items, and admins to oversee and facilitate the entire process.
+TSPN is a website designed to connect food donators and food pantries. It allows growers to list available food, pantry managers to visualize and reserve those items, and admins to oversee and facilitate the entire process.
 
 ## Features
 
