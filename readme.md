@@ -6,7 +6,7 @@ Food Hub is a website designed to connect food donators and food pantries. It al
 
 ## Features
 
-- **Growers**: Post available food items to the Food Hub's inventory. 
+- **Growers**: Post available food items to the Food Hub's inventory.
 - **Pantry Managers**: Browse and reserved listed food items. Upon collection, they can remove the items from the inventory to maintain an up-to-date list.
 - **Repo Managers**: Oversee the repository of food items, with the ability to remove items if needed.
 - **Admins**: Perform user account management, establish pantry manager profiles, and maintain overall functionality of pantries. Admins also manage communications by handling messages sent within the platform.

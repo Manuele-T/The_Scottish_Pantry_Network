@@ -1,4 +1,4 @@
-const Datastore = require("nedb");
+const Datastore = require("gray-nedb");
 const path = require("path");
 
 const db = new Datastore({
