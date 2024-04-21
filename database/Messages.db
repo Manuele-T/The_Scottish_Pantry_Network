@@ -2,3 +2,5 @@
 {"email":"grower01@example.com","message":"I am a grower","_id":"BaY5BpbrIiBKOm3l"}
 {"email":"nonregistereduser@example.com","message":"non registered user message","_id":"IWCURFL4oMMesx4b"}
 {"email":"pantrymanager01@example.com","message":"Pantry Manager Message","_id":"nXS6wrbFGdypT7so"}
+{"email":"admin@email.com","message":"admin message","_id":"y0HFAWZ9cVw92G8d"}
+{"$$deleted":true,"_id":"y0HFAWZ9cVw92G8d"}

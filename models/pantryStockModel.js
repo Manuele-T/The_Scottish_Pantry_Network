@@ -1,4 +1,4 @@
-const Datastore = require('nedb');
+const Datastore = require('gray-nedb');
 // Initialize NeDB datastore for pantry stock with autoload feature.
 const db = new Datastore({
   filename: './database/PantryStock.db',

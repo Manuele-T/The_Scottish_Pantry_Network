@@ -1,4 +1,4 @@
-const Datastore = require("nedb");
+const Datastore = require("gray-nedb");
 // Initializes a new NeDB datastore for food items, automatically loading the database from the specified file.
 let Food = new Datastore({
   filename: "./database/CentralRepo.db",

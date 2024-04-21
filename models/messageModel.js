@@ -1,4 +1,4 @@
-const Datastore = require("nedb");
+const Datastore = require("gray-nedb");
 // Initialize NeDB Datastore for messages.
 const Message = new Datastore({ filename: "./database/Messages.db", autoload: true });
 // Function to insert a new message into the datastore.
