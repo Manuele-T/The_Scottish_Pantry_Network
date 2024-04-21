@@ -10,3 +10,11 @@
 {"username":"pantrymanager23@example.com","passwordHash":"$2b$10$Wu4BHfb0PLWwVsTUl3z8qOZQB8CFDK2QOQYoHolWYMdl15Yey1qta","role":"PantryManager","isBlocked":false,"pantryId":"rEXunP7QvmAO1Hdy","_id":"sYTQNL7vdIaqHzXI"}
 {"username":"grower01@example.com","passwordHash":"$2b$10$cFJlQVhzlpf/rr7LhI0px.9bdptdGIoDLbGYcGXX3ifQSToF21Ewi","role":"Grower","isBlocked":false,"pantryId":null,"_id":"zixw5JXco1fJxLx6"}
 {"username":"grower02@example.com","passwordHash":"$2b$10$s9T1yZAabunyfawDgW8.2esrDw0MdXxGHY9IDtJXTT.6te9OoveGa","role":"Grower","isBlocked":false,"pantryId":null,"_id":"zv0RCIMJTdR62l7e"}
+{"username":"grower222@example.com","passwordHash":"$2b$10$G.GUPKGLR2UzHy9rdkWB8.M91pGgi2GBMfZo2rd68Eg/qKSo4Krc.","role":"Grower","isBlocked":true,"pantryId":null,"_id":"H4ApS4asdu7vbEd0"}
+{"username":"pantrymanager99@example.com","passwordHash":"$2b$10$/wAVbMZjBZf758fCFLrM3.5Lh4MBFrqkpf7qz.ZypHv7M9EjqdqDO","role":"PantryManager","isBlocked":false,"pantryId":"lHUQV5sIiP1TKXWN","_id":"9myAw0k31RTwm7kM"}
+{"username":"pantrymanager99@example.com","passwordHash":"$2b$10$/wAVbMZjBZf758fCFLrM3.5Lh4MBFrqkpf7qz.ZypHv7M9EjqdqDO","role":"PantryManager","isBlocked":true,"pantryId":"lHUQV5sIiP1TKXWN","_id":"9myAw0k31RTwm7kM"}
+{"username":"pantrymanagercw2@example.com","passwordHash":"$2b$10$L9CiUtDNNHI/2Fbtj95OP.l.giANch/oE04K7UWQheddF2SShSvQC","role":"PantryManager","isBlocked":true,"pantryId":"0YCnTRutzaPyjnuT","_id":"os0xBxVyBiAkkKA1"}
+{"$$deleted":true,"_id":"os0xBxVyBiAkkKA1"}
+{"username":"pantrymanager2000@example.com","passwordHash":"$2b$10$HVgnM9/nsht6SQD2O.O5HOmF52f5WXcKJlDtODm5CiyPbQO.jpisK","role":"PantryManager","isBlocked":false,"pantryId":null,"_id":"ygPypKaKkCtwnqNl"}
+{"username":"pantrymanager23@example.com","passwordHash":"$2b$10$Wu4BHfb0PLWwVsTUl3z8qOZQB8CFDK2QOQYoHolWYMdl15Yey1qta","role":"PantryManager","isBlocked":false,"pantryId":"pZT6Eyzd3Hq7sore","_id":"sYTQNL7vdIaqHzXI"}
+{"username":"grower222@example.com","passwordHash":"$2b$10$G.GUPKGLR2UzHy9rdkWB8.M91pGgi2GBMfZo2rd68Eg/qKSo4Krc.","role":"Grower","isBlocked":false,"pantryId":null,"_id":"H4ApS4asdu7vbEd0"}

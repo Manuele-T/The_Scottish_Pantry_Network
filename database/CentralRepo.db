@@ -1,0 +1,6 @@
+{"name":"Potatoes","description":"3 kg","isAvailable":true,"expiryDate":1714435200000,"growerId":"zixw5JXco1fJxLx6","pantryId":null,"_id":"TZNEAJAbWaGCnl54"}
+{"name":"Carrots","description":"5 kg","isAvailable":true,"expiryDate":1714348800000,"growerId":"zixw5JXco1fJxLx6","pantryId":null,"_id":"r8PeQWWyUSjZgSUm"}
+{"name":"Lentils","description":"6 kg","isAvailable":true,"expiryDate":1714435200000,"growerId":"zixw5JXco1fJxLx6","pantryId":null,"_id":"d3Qju3pj5UdNemuD"}
+{"name":"Lentils","description":"6 kg","isAvailable":false,"expiryDate":1714435200000,"growerId":"zixw5JXco1fJxLx6","pantryId":"MVXqSYg4MxzOsxco","_id":"d3Qju3pj5UdNemuD"}
+{"$$deleted":true,"_id":"d3Qju3pj5UdNemuD"}
+{"$$deleted":true,"_id":"TZNEAJAbWaGCnl54"}

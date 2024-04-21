@@ -11,6 +11,11 @@ Food Hub is a website designed to connect food donators and food pantries. It al
 - **Repo Managers**: Oversee the repository of food items, with the ability to remove items if needed.
 - **Admins**: Perform user account management, establish pantry manager profiles, and maintain overall functionality of pantries. Admins also manage communications by handling messages sent within the platform.
 
+## Security
+
+- **JWT (JSON Web Tokens)**: Used to transmit information between parties as a JSON object, enhancing security and ensuring that each request to the server is accompanied by a valid token that is verified for authenticity.
+- **Bcrypt**: Utilized for hashing passwords, providing a secure way to store user credentials and prevent unauthorized access.
+
 ## Registration and Access
 
 - **New Grower Registration**: Users can register a new grower profile via the registration page. The profile will remain pending until validated by an administrator.
