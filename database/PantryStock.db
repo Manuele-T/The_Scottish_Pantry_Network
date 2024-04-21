@@ -1,10 +1,12 @@
-{"name":"Strawberries","description":"5 kg","isAvailable":false,"hasBeenPickedUp":false,"expiryDate":1714435200000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"fh18YixHx8JjQWT0","_id":"5CGXmz2AknkuAVkq"}
-{"name":"hrgg","description":"1111","isAvailable":false,"hasBeenPickedUp":false,"expiryDate":1714348800000,"growerId":"zixw5JXco1fJxLx6","pantryId":"MVXqSYg4MxzOsxco","_id":"6ETERCmX0zDxDSbB"}
-{"name":"Potatoes","description":"5 kg","isAvailable":false,"hasBeenPickedUp":false,"expiryDate":1714435200000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"RGVYmH9EUiGUFKvc","_id":"ErQPIGFAw2JlzLp3"}
-{"name":"Potatoes","description":"2 kg","isAvailable":false,"hasBeenPickedUp":false,"expiryDate":1714348800000,"growerId":"zixw5JXco1fJxLx6","pantryId":"MVXqSYg4MxzOsxco","_id":"EzkuQCS6fKRfmmXC"}
-{"name":"Herbs","description":"1 kg","isAvailable":false,"hasBeenPickedUp":false,"expiryDate":1714348800000,"growerId":"fVbsvZXW0Kv4KXiR","pantryId":"MVXqSYg4MxzOsxco","_id":"MJr8dTT26qM6nPkh"}
-{"name":"Apple Pie","description":"3 kg","isAvailable":false,"hasBeenPickedUp":false,"expiryDate":1714435200000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"RGVYmH9EUiGUFKvc","_id":"OhtfCx2K8cJuMULo"}
-{"name":"Bread","description":"3 kg","isAvailable":false,"hasBeenPickedUp":false,"expiryDate":1714435200000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"MVXqSYg4MxzOsxco","_id":"fDMPwYwosSlkFeCZ"}
-{"name":"Bread","description":"1 kg","isAvailable":false,"hasBeenPickedUp":false,"expiryDate":1714435200000,"growerId":"zixw5JXco1fJxLx6","pantryId":"RGVYmH9EUiGUFKvc","_id":"pV8X2xR4wPDXjd61"}
-{"name":"Carrots","description":"3 kg","isAvailable":false,"hasBeenPickedUp":false,"expiryDate":1714089600000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"MVXqSYg4MxzOsxco","_id":"sGmiy8D5mD1qe8jh"}
-{"name":"Luna","description":"Luno","isAvailable":false,"hasBeenPickedUp":false,"expiryDate":1714435200000,"growerId":"zixw5JXco1fJxLx6","pantryId":"MVXqSYg4MxzOsxco","_id":"zMIET3iCAG1nNT65"}
+{"name":"Strawberries","description":"5 kg","isAvailable":false,"expiryDate":1714435200000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"fh18YixHx8JjQWT0","_id":"5CGXmz2AknkuAVkq"}
+{"name":"hrgg","description":"1111","isAvailable":false,"expiryDate":1714348800000,"growerId":"zixw5JXco1fJxLx6","pantryId":"MVXqSYg4MxzOsxco","_id":"6ETERCmX0zDxDSbB"}
+{"name":"Potatoes","description":"5 kg","isAvailable":false,"expiryDate":1714435200000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"RGVYmH9EUiGUFKvc","_id":"ErQPIGFAw2JlzLp3"}
+{"name":"Potatoes","description":"2 kg","isAvailable":false,"expiryDate":1714348800000,"growerId":"zixw5JXco1fJxLx6","pantryId":"MVXqSYg4MxzOsxco","_id":"EzkuQCS6fKRfmmXC"}
+{"name":"Herbs","description":"1 kg","isAvailable":false,"expiryDate":1714348800000,"growerId":"fVbsvZXW0Kv4KXiR","pantryId":"MVXqSYg4MxzOsxco","_id":"MJr8dTT26qM6nPkh"}
+{"name":"Apple Pie","description":"3 kg","isAvailable":false,"expiryDate":1714435200000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"RGVYmH9EUiGUFKvc","_id":"OhtfCx2K8cJuMULo"}
+{"name":"Bread","description":"3 kg","isAvailable":false,"expiryDate":1714435200000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"MVXqSYg4MxzOsxco","_id":"fDMPwYwosSlkFeCZ"}
+{"name":"Bread","description":"1 kg","isAvailable":false,"expiryDate":1714435200000,"growerId":"zixw5JXco1fJxLx6","pantryId":"RGVYmH9EUiGUFKvc","_id":"pV8X2xR4wPDXjd61"}
+{"name":"Carrots","description":"3 kg","isAvailable":false,"expiryDate":1714089600000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"MVXqSYg4MxzOsxco","_id":"sGmiy8D5mD1qe8jh"}
+{"name":"Luna","description":"Luno","isAvailable":false,"expiryDate":1714435200000,"growerId":"zixw5JXco1fJxLx6","pantryId":"MVXqSYg4MxzOsxco","_id":"zMIET3iCAG1nNT65"}
+{"name":"Rapeseed oil","description":"5 liters","isAvailable":false,"expiryDate":1734566400000,"growerId":"zv0RCIMJTdR62l7e","pantryId":"MVXqSYg4MxzOsxco","_id":"85HpmrAdEKUjLAmS"}
+{"$$deleted":true,"_id":"MJr8dTT26qM6nPkh"}

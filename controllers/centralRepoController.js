@@ -13,7 +13,6 @@ exports.addItemToRepo = function (req, res) {
     name,
     description,
     isAvailable: true, // Marks the food as available by default
-    hasBeenPickedUp: false, // Marks that the food has not been picked up
     expiryDate: new Date(expiryDate).getTime(), // Gets the expiry date
     growerId: req.session.user._id, // Assigns the food to the logged-in user (grower)
     pantryId: null, // Initially, no pantry is assigned
@@ -116,7 +115,6 @@ exports.addItemToPantryDb = async function (req, res, sendResponse = true) {
       name: food.name,
       description: food.description,
       isAvailable: food.isAvailable,
-      hasBeenPickedUp: food.hasBeenPickedUp,
       expiryDate: food.expiryDate,
       growerId: food.growerId,
       pantryId: req.session.user.pantryId
