@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-const Datastore = require("nedb");  // Includes NeDB, a lightweight database
+const Datastore = require("gray-nedb");  // Includes NeDB, a lightweight database
 const User = require("../models/userModel");  // Imports user model for database operations
 const messageModel = require("../models/messageModel");  // Imports message model for handling messages
 const Pantry = require("../models/pantryModel");  // Imports pantry model for handling pantry data

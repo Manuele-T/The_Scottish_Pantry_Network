@@ -1,7 +1,7 @@
 // Imports necessary libraries and modules
 const jwt = require("jsonwebtoken");  // Used for encoding, decoding, and verifying JWTs
 const bcrypt = require("bcrypt");  // Used for hashing passwords
-const Datastore = require("nedb");  // Embedded persistent database
+const Datastore = require("gray-nedb");  // Embedded persistent database
 const path = require("path");  // Utilities for working with file and directory paths
 const User = require("../database/database.js");  // Database access for users, assuming the corrected path
 const Pantry = require('../models/pantryModel.js');  // Model for managing pantry data
