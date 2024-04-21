@@ -26,19 +26,9 @@
         <a class="nav-link" href="/admin">Manage Website</a>
       </li>
       {{/if}}
-      {{#if (eq user.role 'Grower')}}
-      <li class="nav-item">
-        <a class="nav-link" href="/grower">Manage Your Grower Account</a>
-      </li>
-      {{/if}}
       {{#if (eq user.role 'PantryManager')}}
       <li class="nav-item">
         <a class="nav-link" href="/pantryManager">Manage Your Pantry</a>
-      </li>
-      {{/if}}
-      {{#if (eq user.role 'RepoManager')}}
-      <li class="nav-item">
-        <a class="nav-link" href="/centralRepo">Manage the Central Repo</a>
       </li>
       {{/if}}
       <li class="nav-item">

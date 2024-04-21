@@ -88,7 +88,7 @@ exports.verifyRole = function (roles) {
       }
       // Then check if user is blocked
       if (user.isBlocked === true) {
-        return res.status(403).send('Your account has been blocked');
+        return res.status(403).send('Your account is either blocked or pending approval.');
       }
       req.user = user; // Adding user object to request object
       next();

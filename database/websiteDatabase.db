@@ -1,5 +1,6 @@
-{"username":"pantrymanager99@example.com","passwordHash":"$2b$10$/wAVbMZjBZf758fCFLrM3.5Lh4MBFrqkpf7qz.ZypHv7M9EjqdqDO","role":"PantryManager","isBlocked":false,"pantryId":"wsPHglCflVP3OoFa","_id":"9myAw0k31RTwm7kM"}
+{"username":"pantrymanager99@example.com","passwordHash":"$2b$10$/wAVbMZjBZf758fCFLrM3.5Lh4MBFrqkpf7qz.ZypHv7M9EjqdqDO","role":"PantryManager","isBlocked":true,"pantryId":"lHUQV5sIiP1TKXWN","_id":"9myAw0k31RTwm7kM"}
 {"username":"pantrymanager03@example.com","passwordHash":"$2b$10$ASTDEAh2uxl7sANR3tGA8eUI79ReWtYdpHZifSqfKu4MYro2h1Exy","role":"PantryManager","isBlocked":false,"pantryId":"fh18YixHx8JjQWT0","_id":"VZxEaoFDk3zUVzju"}
+{"username":"examplegrower@example.com","passwordHash":"$2b$10$8sNigpumfMcfCvCfhwgq.eGe1zR/.k9.iK7V1FUyijFxN4tJ6/Qy.","role":"Grower","isBlocked":true,"pantryId":null,"_id":"WT9t8xXFv897dR9c"}
 {"username":"repomanager01@example.com","passwordHash":"$2b$10$n8kbldHn3zCtJh6HxKpk0uHcnwQMPpj8N3dnz2McHk/Iy/8lxjHcC","role":"RepoManager","isBlocked":false,"pantryId":null,"_id":"eKAMqXWJvmxVYLNv"}
 {"username":"growercw8@example.com","passwordHash":"$2b$10$eomP1Qw5IDEJp9MQablUHegJI1E8Tj9UC.lBhtKhTUnFEE1hBuXWO","role":"Grower","isBlocked":false,"pantryId":null,"_id":"h4jOSzgFcE0JtSII"}
 {"username":"pantrymanager02@example.com","passwordHash":"$2b$10$sVMAdqw19Ad/JeYz5ZCmXOagPhnHwDLbYpHdoILAof.AfBda/zu2C","role":"PantryManager","isBlocked":false,"pantryId":"MVXqSYg4MxzOsxco","_id":"m1WSNpzO3KVEe7dO"}

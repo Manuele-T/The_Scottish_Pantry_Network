@@ -51,7 +51,10 @@ router.get('/admin/deleteGrowerConfirmation', function(req, res) {
 });
 router.post('/admin/confirmDeleteGrower', auth.verifyRole(['Admin']), adminController.confirmDeleteGrower);
 router.post('/admin/changeGrowerStatus', auth.verifyRole(['Admin']), adminController.changeGrowerStatus);
+router.get('/admin/messages', auth.verifyRole(['Admin']), adminController.show_messages);
+router.get('/admin/messages/delete/:id', auth.verifyRole(['Admin']), adminController.delete_message);
 // Central Repository Routes
+router.get('/reserveItem/:id', auth.verifyRole(['PantryManager']), centralRepoController.reserveItem);
 router.get('/addItemToRepo', auth.verifyRole(['Grower']), centralRepoController.show_add_item_page);
 router.post('/addItemToRepo', auth.verifyRole(['Grower']), centralRepoController.addItemToRepo);
 router.get('/centralRepo', auth.verify, centralRepoController.loadItems);

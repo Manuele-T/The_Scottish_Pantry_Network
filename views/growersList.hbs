@@ -5,14 +5,12 @@
             <thead>
                 <tr>
                     <th scope="col">Grower</th>
-                    <th scope="col">Blocked</th>
                 </tr>
             </thead>
             <tbody>
                 {{#each growers}}
                 <tr>
                     <td>{{this.username}}</td>
-                    <td>{{#if this.isBlocked}}Yes{{else}}No{{/if}}</td>
                 </tr>
                 {{/each}}
             </tbody>
