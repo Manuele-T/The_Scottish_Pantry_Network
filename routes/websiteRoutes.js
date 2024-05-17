@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-// Controllers
+// All Controllers
 const userController = require('../controllers/userController.js');
 const homeController = require('../controllers/homeController.js');
 const centralRepoController = require('../controllers/centralRepoController.js');
