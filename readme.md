@@ -8,7 +8,7 @@ TSPN is a website designed to connect food donators and food pantries. It allows
 
 ## Technology Stack
 
-This application was developed using the following technologies as specified in the coursework requirements:
+This application was developed using the following technologies:
 
 * **Backend Framework**: Node.js with Express
 * **Database**: NeDB (a file-based NoSQL database)
